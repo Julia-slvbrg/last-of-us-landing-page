@@ -1,0 +1,25 @@
+body{
+    font-family: "Poppins", sans-serif;
+    
+    font-style: normal;
+}
+#header{
+    background: linear-gradient(180deg, #e8ae6fea 0%, #814e06 100%);
+}
+#header .nav .nav-link{
+    color: rgba(12, 12, 12, 0.788);
+}
+#header .nav .nav-link.active{
+    background-color: #fff;
+}
+.carousel-item img{
+    height: 650px;
+}
+.section-title{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* #about-img-container img{
+    height: 380px;
+} */
