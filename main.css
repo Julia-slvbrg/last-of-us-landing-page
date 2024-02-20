@@ -79,7 +79,7 @@ body{
     text-decoration: none;
 }
 
-@media screen and (max-width:640px) {
+@media only screen and (max-width:640px) {
     .carousel-item img{
         height: 410px;
     }
@@ -104,7 +104,10 @@ body{
     }
 }
 
-@media screen and (min-width: 641px) and (max-width:1023px) {
+@media only screen and (min-width: 641px) and (max-width:1023px) {
+    .carousel-item img{
+        height: 460px;
+    }
     #characters-section .tab-content .tab-pane .row{
         display: flex;
         flex-direction: column;
@@ -113,7 +116,13 @@ body{
     }
 }
 
-@media screen and (min-width:1024px) {
+@media only screen and (min-width: 1024px) and (max-width:1899px) {
+    .carousel-item img{
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width:1900px) {
     .carousel-item img{
         height: 1290px;
     }
